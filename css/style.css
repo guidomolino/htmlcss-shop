@@ -7,14 +7,29 @@
 }
 .row1{
   display: inline-block;
+  position: relative;
 }
 .row2{
   display: inline-block;
+  position: relative;
 }
 .green-price{
   background-color: green;
   position: absolute;
-  top: 10%;
-  right: 20%;
+  top: 0;
+  right: 0;
   width: 40px;
+}
+.red-price{
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+}
+.cuore{
+  color: red;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
 }
