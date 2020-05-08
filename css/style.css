@@ -30,6 +30,25 @@
 .cuore{
   color: red;
   position: absolute;
-  bottom: 0;
+  bottom: 15px;
   right: 50%;
+}
+input[type="button"]{
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+}
+input[type="checkbox"]{
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.title{
+  text-align: center;
+  border: 5px solid orange;
+  margin-bottom: 45px;
+  margin-left: 25%;
+  margin-right: 27%;
+  background-color: black;
+  color: orange;
 }
