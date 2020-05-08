@@ -36,7 +36,7 @@
 .row:hover .cuore{
   display: inline-block;
 }
-.cuore:hover{
+.row:hover{
   cursor: pointer;
 }
 input[type="button"]{
