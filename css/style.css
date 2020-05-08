@@ -5,14 +5,11 @@
 .elenco2{
   margin-left: 25%;
 }
-.row1{
+.row{
   display: inline-block;
   position: relative;
 }
-.row2{
-  display: inline-block;
-  position: relative;
-}
+
 .green-price{
   background-color: green;
   position: absolute;
@@ -31,7 +28,16 @@
   color: red;
   position: absolute;
   bottom: 15px;
-  right: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display:none;
+}
+.row:hover .cuore{
+  display: inline-block;
+}
+.cuore:hover{
+  cursor: pointer;
 }
 input[type="button"]{
   position: absolute;
